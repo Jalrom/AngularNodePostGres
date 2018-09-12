@@ -63,7 +63,7 @@ let UserRepository = class UserRepository {
             port: 5432,
             username: "postgres",
             password: "postgres",
-            database: "rpg",
+            database: "LIV4D",
             entities: [
                 player_1.Player
             ],

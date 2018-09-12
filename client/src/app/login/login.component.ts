@@ -73,7 +73,7 @@ export class LoginComponent implements OnInit {
       (res) => {
           this.player.id = res.id;
           // res contains the id of the user
-          // this.router.navigate(['/' + ROUTES.GAME]);
+          this.router.navigate(['/' + ROUTES.EDITOR]);
       },
       (err) => {
           const serverError: ServerError = err.json();

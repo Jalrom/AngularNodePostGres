@@ -14,12 +14,14 @@ import { RegisterService } from './register/register.service';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { EditorComponent } from './editor/editor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    EditorComponent,
   ],
   imports: [
     BrowserModule,

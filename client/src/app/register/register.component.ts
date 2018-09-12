@@ -137,6 +137,8 @@ export class RegisterComponent implements OnInit {
             (id: number) => {
                 this.appService.loading = false;
                 // Send to edit page
+                this.router.navigate(['/' + ROUTES.EDITOR]);
+
             },
             (err) => {
                 const serverError: ServerError = err.json();

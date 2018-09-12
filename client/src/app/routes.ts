@@ -1,7 +1,7 @@
 const ROUTES = {
     REGISTER : 'register',
     LOGIN : 'login',
-    GAME : 'game'
+    EDITOR : 'editor'
 };
 
 export default ROUTES;

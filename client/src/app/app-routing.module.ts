@@ -1,3 +1,4 @@
+import { EditorComponent } from './editor/editor.component';
 import ROUTES from './routes';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -8,6 +9,7 @@ import { RegisterComponent } from './register/register.component';
 const routes: Routes = [
   { path: ROUTES.LOGIN, component: LoginComponent },
   { path: ROUTES.REGISTER, component: RegisterComponent },
+  {path: ROUTES.EDITOR, component: EditorComponent},
   { path: '', redirectTo: '/' + ROUTES.LOGIN, pathMatch: 'full' }
 ];
 @NgModule({
